@@ -15,6 +15,9 @@
 		D52530FE1C3126B500C533ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D52530FC1C3126B500C533ED /* LaunchScreen.storyboard */; };
 		D52531091C3126B500C533ED /* _0151228002_UIPickerView_ProvinceCtityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D52531081C3126B500C533ED /* _0151228002_UIPickerView_ProvinceCtityTests.m */; };
 		D52531141C3126B500C533ED /* _0151228002_UIPickerView_ProvinceCtityUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D52531131C3126B500C533ED /* _0151228002_UIPickerView_ProvinceCtityUITests.m */; };
+		D52531221C3128A100C533ED /* provinces.plist in Resources */ = {isa = PBXBuildFile; fileRef = D52531211C3128A100C533ED /* provinces.plist */; };
+		D52531251C3128FC00C533ED /* ProvinceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D52531241C3128FC00C533ED /* ProvinceModel.m */; };
+		D525312B1C31314B00C533ED /* NSArray+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = D525312A1C31314B00C533ED /* NSArray+Log.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,11 @@
 		D525310F1C3126B500C533ED /* 20151228002-UIPickerView-ProvinceCtityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "20151228002-UIPickerView-ProvinceCtityUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D52531131C3126B500C533ED /* _0151228002_UIPickerView_ProvinceCtityUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _0151228002_UIPickerView_ProvinceCtityUITests.m; sourceTree = "<group>"; };
 		D52531151C3126B500C533ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D52531211C3128A100C533ED /* provinces.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = provinces.plist; sourceTree = "<group>"; };
+		D52531231C3128FC00C533ED /* ProvinceModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProvinceModel.h; sourceTree = "<group>"; };
+		D52531241C3128FC00C533ED /* ProvinceModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProvinceModel.m; sourceTree = "<group>"; };
+		D52531291C31314B00C533ED /* NSArray+Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Log.h"; sourceTree = "<group>"; };
+		D525312A1C31314B00C533ED /* NSArray+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Log.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,12 +111,17 @@
 			children = (
 				D52530F11C3126B500C533ED /* AppDelegate.h */,
 				D52530F21C3126B500C533ED /* AppDelegate.m */,
+				D52531231C3128FC00C533ED /* ProvinceModel.h */,
+				D52531241C3128FC00C533ED /* ProvinceModel.m */,
+				D52531291C31314B00C533ED /* NSArray+Log.h */,
+				D525312A1C31314B00C533ED /* NSArray+Log.m */,
 				D52530F41C3126B500C533ED /* ViewController.h */,
 				D52530F51C3126B500C533ED /* ViewController.m */,
 				D52530F71C3126B500C533ED /* Main.storyboard */,
 				D52530FA1C3126B500C533ED /* Assets.xcassets */,
 				D52530FC1C3126B500C533ED /* LaunchScreen.storyboard */,
 				D52530FF1C3126B500C533ED /* Info.plist */,
+				D52531211C3128A100C533ED /* provinces.plist */,
 				D52530EE1C3126B500C533ED /* Supporting Files */,
 			);
 			path = "20151228002-UIPickerView-ProvinceCtity";
@@ -245,6 +258,7 @@
 			files = (
 				D52530FE1C3126B500C533ED /* LaunchScreen.storyboard in Resources */,
 				D52530FB1C3126B500C533ED /* Assets.xcassets in Resources */,
+				D52531221C3128A100C533ED /* provinces.plist in Resources */,
 				D52530F91C3126B500C533ED /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,7 +284,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D525312B1C31314B00C533ED /* NSArray+Log.m in Sources */,
 				D52530F61C3126B500C533ED /* ViewController.m in Sources */,
+				D52531251C3128FC00C533ED /* ProvinceModel.m in Sources */,
 				D52530F31C3126B500C533ED /* AppDelegate.m in Sources */,
 				D52530F01C3126B500C533ED /* main.m in Sources */,
 			);
